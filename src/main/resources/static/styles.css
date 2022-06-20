@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', sans-serif;
+}
+
+#wraps, #proteins, #cheeses, #veggies, #sauce{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    margin-right: 20px;
+}
+
+#submit-btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#taco-name {
+  padding: 6px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
